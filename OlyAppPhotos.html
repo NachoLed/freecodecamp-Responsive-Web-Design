@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
+<html>
+  <body>
+    <h1>OlyPhotoApp</h1>
+    <main>
+      <section>
+        <h2>Fotos de gatoss</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>Click here to view more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://lh3.googleusercontent.com/izH3EOYiKeCe00KDse4D7uowo_fdkNv9cMt5eCFlLD91Hzp4SAILTIiP1l91fHso3BchI1rZZsxHEys_EJZk6NSZRxPL4aEKl2atA0-BR-Sdd1FXdTf3qawSfZgGKq3fN1KM8VtUKoSol7AU1BF9W6v7prPx1ExsD9vOducwdc_hIkgl25rOVFk2TTxbmyovlsIgh6sSEHVRoeztvJV6LFtOLzrTA1oHunIf_5szOAAk_VSd92swDT0R8H_OYhxk6J6uBGJuLkeXUp9zaQ1kX5W_7BBy0CODzr5n1x9p7nxhaJ4H-S8MEzJ8PMbPN4m5pZHWxpMflJaIA6jCN865kzLY0RJnwyy_snAOBOUVGokVuD9JH_ZvV25xo3ioO9Rc4wkr9LMkVzHFafC45QWT_mintKrbDd1A2BKgTaws8x_zvRDvGbzASxgULQslRvd0vGnLdmlIVgb2Ui8_eF4oRIfJHgyM5ycNBqa2XyS_gBbMrrUXDn4-WV2uWlIQXmS1GCXnMLZxo1S_wNpITxT0Q4ymfJxsBRicP9z8hK05YVVb7DPr8GENmDALH74f_v1u8HUNuMNYge7g4VTpwtAjKXIY-cuffana0_OwBfWMfA_O2ASWvvaMmLedvDLV3MCsUYL2ffvZ14sD72b828Ja06kjVdH493xHjlJV5gpgjg61SzjRgwW8V4vHfMItaqcPQJMFtb7uc5a7gn5yZvDEyqKcbvOd2egZyX8qrJ27CToqQq1jjtFobhjaCJNH9yg=w981-h929-no?authuser=0" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <script>
+            alert( 'Hola, soy una alerta de JavaScript!' );
+        </script>
+        <h2>Oly Lists</h2>
+        <h3>Cosas que Oly ama:</h3>
+        <ul>
+          <li>El chiche</li>
+          <li>Salir a pasear</li>
+          <li>ladrar por cualquier forrada</li>
+        </ul>
+        <figure> <!--Figure pone la imagen en una especie de marco que la mueve un poco hacia la derecha y permite agregar una descripcion en la imgen con figcaption-->
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Esto es un figcaption de la lasagna que nada tiene que ver con Oly</figcaption>
+        </figure>
+        <h3>Lista de cosas que Olympia odia:</h3>
+        <ul>
+            <ol>La Paloma</ol>
+            <ol>Que no le conviden comida</ol>
+            <ol>Peronistas</ol>
+        </ul>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+                <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                </fieldset>
+                <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+                </fieldset>
+                <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
