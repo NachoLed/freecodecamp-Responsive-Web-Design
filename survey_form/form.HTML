@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+	  <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id=title>Hablemos!</h1>
+      <p id="description"> Completá estos datos y pongamonos en contacto.</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <fieldset class="usrData">
+        <label id="name-label">Nombre <input id="name" type="text" placeholder="Nombre" required></label>
+        </br>
+        <label id="email-label">Email <input id="email" type="email" placeholder="Email" required></label>
+        </br>
+        <label id="number-label">Edad <input id="number" type="number" min="13" max="130" placeholder="Number" required></label>
+        <label> Sexo  
+          <select id="dropdown">
+          <option value="0">No binarie</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+          </select>
+        </label>
+        </fieldset>
+        </br>
+        <fieldset class="terms" >
+          <label><input type="radio" name="attribute" class="inline" value="personal"/> Personal Account</label>
+          <label><input type="radio" name="attribute" class="inline" value="bussienes"/> Business Account</label>
+          <label>
+            <input type="checkbox" name="terms" class="inline" required value="1"/> I accept the 
+            <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+          </label>
+                   <input type="checkbox" name="termsII" class="inline" required value="2" /> I accept the 
+                   <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions II</a>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>Comentarios
+          <textarea rows=3 cols=30 placeholder="I would like to work with you!"></textarea>
+          </label>
+        </fieldset>
+        <button id="submit" type="submit">Enviar</button>
+      </form>
+      
+    </main>
+
+  </body>
